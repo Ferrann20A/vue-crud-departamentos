@@ -23,6 +23,7 @@
                         <td>
                             <router-link class="btn btn-outline-warning" :to="`/details/${d.idDepartamento}/${d.nombre}/${d.localidad}`">Detalles</router-link>
                             <router-link class="btn btn-outline-info" :to="`/update/${d.idDepartamento}`">Update</router-link>
+                            <router-link class="btn btn-outline-danger" :to="`/delete/${d.idDepartamento}`">Delete</router-link>
                         </td>
                     </tr>
                 </tbody>
